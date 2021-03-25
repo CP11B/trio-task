@@ -3,7 +3,7 @@ services:
   db:
     container_name: mysql
     build: ./db
-    image: bae11b/trio-task-db
+    image: bae11b/trio-task-mysql
     environment: 
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_DATABASE: flask-db
