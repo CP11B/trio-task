@@ -9,7 +9,7 @@ services:
       MYSQL_DATABASE: flask-db
       volumes:
       -type: volume
-      source: trio-tast-db
+      source: trio-task-db
       target: /var/lib/mysql
   flask-app:
     container_name: flask-app
